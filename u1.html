@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+        header {
+            background-color:  black;
+            color:  #FFF;
+            text-align: center;
+            padding: relative; /* Add this */
+        }
+
+        .header-content h1{
+            font-size: 3.9;
+        }
+
+
+        /* Add styles for the round profile picture */
+        .profile-picture{
+            width: 150px; /*Adjust the size as needed */
+            height: 150px;
+            border-radius: 90%; /* Create a circular shape */
+            object-fit: cover;/* TO ensure the image fills the circular */
+            position:absolute; /* Add this */
+            top: 0px;/* Adjust top position as needed */
+            right: 75%;/* Adjust right position as needed */
+        }
+
+        nav {
+            background-color: #1E90FF;
+            color:#FFF;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #FFF;
+        }
+
+        .section-content {
+            background-color: #FFF;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+
+        }
+
+        .download-button:hover{
+            background-color: red;
+        }
+        footer{
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #00CED1;
+            color: #FFF;
+        }
+
+        ul{
+            list-style-type: lower-roman;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <!-- Add your profile picture here -->
+            <img src="images/u1.jpg"alt="Your Profile Picture"class="profile-picture">
+            <h1>YUVANESHWARAN.K</h1>
+            <p>Computer Science</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>Hello Everyone!This is  YUVAN, i am i am currently pursuing my bachelor's degree in computer science at Dr.R.V Arts and Science College,Karamadai</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            
+            <h2>Education</h2>
+            <p>Dr.R.V.Arts And Science college</p>
+            <p>BSc.(CS)</p>   
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h1>Skills</h1>
+            <u1>
+                <li>Python</li>
+                <li>C++</li>
+                <li>C</li>
+                <li>Java</li>
+                <li>Artificial Intelligence</li>
+                <li>HTML</li>
+            </u1>
+        </div>
+    </section>
+    
+    <section id="resume">
+        <center>
+        <div class="section-content">
+            <h2>Resume</h2>
+            <a href="images/u2_files/"class="download-button">Download </a>
+        </div>    
+        </center>
+    </section>
+    <footer>
+        <p>Thank You</p>
+    </footer>
+
+    <script>
+        //Smooth scrolling to section when clicking on navigation links
+    </script>
+</body>    
+</html>
